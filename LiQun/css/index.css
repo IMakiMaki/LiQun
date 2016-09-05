@@ -1,0 +1,56 @@
+/*首页导航上条*/
+#header-Pic{
+	width: 1200px;
+	margin: 0 auto;
+}
+#header-Nav{
+	width: 1200px;
+	height: 35px;
+	clear: both;
+	margin: 0 auto;
+}
+#allClass{
+	background-color: #b1191b;
+    height: 35px;
+    line-height: 37px;
+    color: White;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
+    width: 190px;
+}
+#header-Nav > ul{
+	float: left;
+	position: relative;
+}
+#header-Nav > ul li{
+	text-align: left;
+    font-size: 15px;
+    color: #525252;
+    float: left;
+    height: 35px;
+    line-height: 37px;
+    margin-left: 42px;
+    display: inline;
+}
+#header-Nav > ul li:hover a{
+	color: red;
+}
+#header-Nav li a, #header-nav li a:visited {
+    color: #525252;
+    font-size: 15px;
+}
+#header-Nav li.header-point {
+	margin-left: 163px;
+    width: 87px;
+    float: right;
+}
+/*banner开始*/
+#banner-Content{
+	clear: both;
+    width: 100%;
+    height: 451px;
+    margin-bottom: 10px;
+    border-top: 2px solid #b1191b;
+}

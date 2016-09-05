@@ -1,0 +1,107 @@
+/*顶部信息*/
+#header-Info{
+	width: 1200px;
+	margin: 0 auto;
+    font-size: 12px;
+    color: #777;
+}
+#header-Right > ul > li{
+	margin: 0 6px;
+    padding: 0 6px;
+	float: left;
+}
+#header-Info{
+	width: 1200px;
+	height: 24px;
+	line-height: 24px;
+}
+#header-Info li.header-spe {
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+    color: #ccc;
+}
+#header-Info .hrf-img{
+	margin-top: 3px;
+    float: left;
+    margin-left: 5px;
+}
+#header-Right li .header-icon {
+	float: left;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+#header-Search{
+	width: 1200px;
+	margin: 0 auto;
+	height: 85px;
+	padding-top: 15px
+}
+#header-Logo{
+	position: relative;
+	width: 350px;
+	height: 100px;
+}
+#header-Logo .logo-Add{
+	position: absolute;
+	left: 190px;
+}
+#header-Search-center{
+	width: 1200px;
+	margin: 0 auto;
+}
+#header-search-area{
+	float: left;
+    margin-top: 10px;
+    width: 540px;
+    margin-left: 15px;
+}
+#header-search-area input{
+	float: left;
+}
+.header-search-main {
+    border: 3px solid #fb5859;
+    height: 35px;
+    position: relative;
+}
+#headSearchInput {
+    border: none;
+    height: 14px;
+    padding: 10px 0;
+    font-size: 14px;
+    width: 420px;
+    color: #aaa;
+    text-align: left;
+}
+#headSearchBtn {
+    width: 85px;
+    height: 35px;
+    background: url(../img/search_button.jpg) no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.header-search-word {
+    height: 28px;
+    line-height: 28px;
+}
+.header-search-word li{
+	float: left;
+    padding: 0 5px;
+}
+.header-search-cart {
+    float: right;
+    margin-top: 15px;
+    width: 270px;
+}
+.header-search-cart #headCartCount {
+    position: absolute;
+    left: 15px;
+    top: -10px;
+    background: url(../img/cart_count.png) no-repeat;
+    width: 21px;
+    height: 21px;
+    text-align: center;
+    line-height: 21px;
+    font-weight: bold;
+    color: White;
+}

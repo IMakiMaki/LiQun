@@ -1,0 +1,79 @@
+body {
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+h1,h2,h3,h4,h5{
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(153, 153, 153);
+}
+
+a img {
+	border:none;
+}
+
+img{
+	display: block;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+li{
+	margin: 0;
+	padding: 0;
+}
+
+.center{
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.clear {
+	display: block;
+	clear: both;
+	width: 100%;
+	overflow: hidden;
+	height: 0px;
+}
+
+.red {
+	color: red!important;
+}
+
+.hide {
+	display: none;
+}
+
+.overflow {
+	overflow: hidden;
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+.noborder{
+	border: none;
+}
